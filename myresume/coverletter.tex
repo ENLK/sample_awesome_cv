@@ -1,0 +1,136 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-aqua}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Cheeming (Lucas)}{Tan}
+\position{Data Scientist{\enskip\cdotp\enskip}Business Analyst}
+\address{51, USJ 11/1G, 47620 Subang Jaya, Malaysia}
+
+\mobile{(+60) 16-938-7109}
+\email{lucas.cmtan@gmail.com}
+\homepage{lucastancm96.github.io}
+\github{lucastancm96}
+\linkedin{cheeming-tan}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {EY Malaysia\\Level 23A, Menara Milenium, Jalan Damanlela\\Damansara Town Centre\\50490 Kuala Lumpur}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Associate - Data \& Analytics, Technology Consulting}
+% How the letter is opened
+\letteropening{Dear Recruitment Team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Cheeming Tan~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I am a recent postgraduate student of MSc Business Analytics from The University of Manchester. Prior to my masters degree, I obtained a dual award degree specializing in business marketing from Tunku Abdul Rahman University College and Sheffield Hallam University. I have two internships experience and worked approximately eight months in a digital marketing firm as a performance specialist for which I implemented ads on Google and Facebook that has successfully generated 4,000 leads and 90,000 clicks for all campaigns. Besides implementing ads, I also managed the social media presence of a leading global oil and gas company in Malaysia.
+
+\lettersection{Why EY?}
+I am keen to apply for the position of Data \& Analytics Associate in EY Malaysia because my passion have always lies in solving business problems using data-driven approach to achieve strategic and operational goals of an organization. Hence, joining the team at one of the best known and largest professional services networks in the world is an ultimate goal for an enthusiast like me. On top of that, the innovative culture which is deeply rooted in EY where embracing digital transformation has always been highly regarded is in harmony with my core value. Another reason that I am interested in this position is because it is congruent with my profile and would enable me to apply the skills and knowledge I have gained from the past learning and working experience. I perceive this role as a great opportunity for me to make valuable contribution to EY through the combination of my business acumens and data science expertise I earned from my masters degree.
+
+\lettersection{Why Me?}
+I possess sufficient knowledge required for this role which covers spectrums of knowledge including Python, R, SQL, Tableau, and various other data analytics stacks. In addition, I have several high achieving hands-on projects that has adequately demonstrated my capability of applying the above-mentioned skills and knowledge in the practical context. Moreover, I also acquire the skills of developing automated data processing and reporting pipleline for which I gained in my previous working experience. On top of that, both of my past research and projects experience has enable me to establish data mining processes both independently or as an effective team player of a cross functional team. Apart from that, I also have experience in engaging directly with clients from different walk of life during my past career and extracurricular activities.\\\\
+I look forward to receiving a positive feedback upon my application.
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
